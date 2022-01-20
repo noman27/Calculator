@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CalculatorInterface">
+  <grid id="27dc6" binding="CalculatorInterface" layout-manager="GridLayoutManager" row-count="5" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="20" bottom="0" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="562" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="21d83" class="javax.swing.JButton" binding="btnTwo">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="bee48" class="javax.swing.JButton" binding="btnThree">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="43140" class="javax.swing.JButton" binding="btnFive">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="423e8" class="javax.swing.JButton" binding="btnEight">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="b577f" class="javax.swing.JButton" binding="btnZero">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="d03f0" class="javax.swing.JButton" binding="btnPlus">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="e9929" class="javax.swing.JButton" binding="btnSix">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="dc296" class="javax.swing.JButton" binding="btnNine">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="98a4b" class="javax.swing.JButton" binding="btnClear">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="CL"/>
+        </properties>
+      </component>
+      <component id="896c4" class="javax.swing.JButton" binding="btnMultiply">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="X"/>
+        </properties>
+      </component>
+      <component id="e919d" class="javax.swing.JButton" binding="btnOne">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="5025" class="javax.swing.JButton" binding="btnFour">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="ca710" class="javax.swing.JButton" binding="btnSeven">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="25ddc" class="javax.swing.JButton" binding="btnPoint">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="37eae" class="javax.swing.JTextField" binding="Output">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="59b41" class="javax.swing.JButton" binding="btnMinus">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="b9cde" class="javax.swing.JButton" binding="btnDivide">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="/"/>
+        </properties>
+      </component>
+      <component id="5dd5" class="javax.swing.JButton" binding="btnRoot">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="√"/>
+        </properties>
+      </component>
+      <component id="2a8ab" class="javax.swing.JButton" binding="btnSin">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="sin"/>
+        </properties>
+      </component>
+      <component id="acf8e" class="javax.swing.JButton" binding="btnResult">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="6f5ea" class="javax.swing.JButton" binding="btnCos">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="cos"/>
+        </properties>
+      </component>
+      <component id="87239" class="javax.swing.JButton" binding="btnTan">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="tan"/>
+        </properties>
+      </component>
+      <component id="76bb5" class="javax.swing.JButton" binding="power">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="^"/>
+        </properties>
+      </component>
+      <component id="e10b6" class="javax.swing.JButton" binding="parcent">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="%"/>
+        </properties>
+      </component>
+      <component id="274d" class="javax.swing.JButton" binding="btnPrev">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="PrevAns"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
